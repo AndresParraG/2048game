@@ -1,0 +1,274 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity">
+
+    <GridLayout
+        android:id="@+id/grid"
+        style="@style/board"
+        android:rowCount="4"
+        android:columnCount="4"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent">
+
+
+        <TextView
+            android:id="@+id/view00"
+            android:layout_width="@dimen/box_size"
+            android:layout_height="@dimen/box_size"
+            android:padding="@dimen/block_padding"
+            android:layout_margin="@dimen/block_margin"
+            android:textSize="@dimen/block_text_size"
+            android:textStyle="bold"
+            android:background="@color/yellow"
+            android:layout_row="0"
+            android:layout_column="0"
+            android:text="@string/null_value"
+            android:autoSizeTextType="uniform"
+            android:textAlignment="center"/>
+
+        <TextView
+            android:id="@+id/view01"
+            android:layout_width="@dimen/box_size"
+            android:layout_height="@dimen/box_size"
+            android:layout_row="0"
+            android:layout_column="1"
+            android:layout_margin="@dimen/block_margin"
+            android:autoSizeTextType="uniform"
+            android:background="@color/yellow"
+            android:padding="@dimen/block_padding"
+            android:text="@string/null_value"
+            android:textAlignment="center"
+            android:textSize="@dimen/block_text_size"
+            android:textStyle="bold" />
+
+        <TextView
+            android:id="@+id/view02"
+            android:layout_width="@dimen/box_size"
+            android:layout_height="@dimen/box_size"
+            android:padding="@dimen/block_padding"
+            android:layout_margin="@dimen/block_margin"
+            android:textSize="@dimen/block_text_size"
+            android:textStyle="bold"
+            android:background="@color/yellow"
+            android:layout_row="0"
+            android:layout_column="2"
+            android:text="@string/null_value"
+            android:autoSizeTextType="uniform"
+            android:textAlignment="center"/>
+
+        <TextView
+            android:id="@+id/view03"
+            android:layout_width="@dimen/box_size"
+            android:layout_height="@dimen/box_size"
+            android:padding="@dimen/block_padding"
+            android:layout_margin="@dimen/block_margin"
+            android:textSize="@dimen/block_text_size"
+            android:textStyle="bold"
+            android:background="@color/yellow"
+            android:layout_row="0"
+            android:layout_column="3"
+            android:text="@string/null_value"
+            android:autoSizeTextType="uniform"
+            android:textAlignment="center"/>
+
+        <TextView
+            android:id="@+id/view10"
+            android:layout_width="@dimen/box_size"
+            android:layout_height="@dimen/box_size"
+            android:layout_row="1"
+            android:layout_column="0"
+            android:layout_margin="@dimen/block_margin"
+            android:autoSizeTextType="uniform"
+            android:background="@color/yellow"
+            android:padding="@dimen/block_padding"
+            android:text="@string/null_value"
+            android:textAlignment="center"
+            android:textSize="@dimen/block_text_size"
+            android:textStyle="bold" />
+
+        <TextView
+            android:id="@+id/view11"
+            android:layout_width="@dimen/box_size"
+            android:layout_height="@dimen/box_size"
+            android:layout_row="1"
+            android:layout_column="1"
+            android:layout_margin="@dimen/block_margin"
+            android:autoSizeTextType="uniform"
+            android:background="@color/yellow"
+            android:padding="@dimen/block_padding"
+            android:text="@string/null_value"
+            android:textAlignment="center"
+            android:textSize="@dimen/block_text_size"
+            android:textStyle="bold" />
+
+        <TextView
+            android:id="@+id/view12"
+            android:layout_width="@dimen/box_size"
+            android:layout_height="@dimen/box_size"
+            android:layout_row="1"
+            android:layout_column="2"
+            android:layout_margin="@dimen/block_margin"
+            android:autoSizeTextType="uniform"
+            android:background="@color/yellow"
+            android:padding="@dimen/block_padding"
+            android:text="@string/null_value"
+            android:textAlignment="center"
+            android:textSize="@dimen/block_text_size"
+            android:textStyle="bold" />
+
+        <TextView
+            android:id="@+id/view13"
+            android:layout_width="@dimen/box_size"
+            android:layout_height="@dimen/box_size"
+            android:layout_row="1"
+            android:layout_column="3"
+            android:layout_margin="@dimen/block_margin"
+            android:autoSizeTextType="uniform"
+            android:background="@color/yellow"
+            android:padding="@dimen/block_padding"
+            android:text="@string/null_value"
+            android:textAlignment="center"
+            android:textSize="@dimen/block_text_size"
+            android:textStyle="bold" />
+
+        <TextView
+            android:id="@+id/view20"
+            android:layout_width="@dimen/box_size"
+            android:layout_height="@dimen/box_size"
+            android:padding="@dimen/block_padding"
+            android:layout_margin="@dimen/block_margin"
+            android:textSize="@dimen/block_text_size"
+            android:textStyle="bold"
+            android:background="@color/yellow"
+            android:layout_row="2"
+            android:layout_column="0"
+            android:text="@string/null_value"
+            android:autoSizeTextType="uniform"
+            android:textAlignment="center"/>
+
+        <TextView
+            android:id="@+id/view21"
+            android:layout_width="@dimen/box_size"
+            android:layout_height="@dimen/box_size"
+            android:layout_row="2"
+            android:layout_column="1"
+            android:layout_margin="@dimen/block_margin"
+            android:autoSizeTextType="uniform"
+            android:background="@color/yellow"
+            android:padding="@dimen/block_padding"
+            android:text="@string/null_value"
+            android:textAlignment="center"
+            android:textSize="@dimen/block_text_size"
+            android:textStyle="bold" />
+
+        <TextView
+            android:id="@+id/view22"
+            android:layout_width="@dimen/box_size"
+            android:layout_height="@dimen/box_size"
+            android:padding="@dimen/block_padding"
+            android:layout_margin="@dimen/block_margin"
+            android:textSize="@dimen/block_text_size"
+            android:textStyle="bold"
+            android:background="@color/yellow"
+            android:layout_row="2"
+            android:layout_column="2"
+            android:text="@string/null_value"
+            android:autoSizeTextType="uniform"
+            android:textAlignment="center"/>
+
+        <TextView
+            android:id="@+id/view23"
+            android:layout_width="@dimen/box_size"
+            android:layout_height="@dimen/box_size"
+            android:padding="@dimen/block_padding"
+            android:layout_margin="@dimen/block_margin"
+            android:textSize="@dimen/block_text_size"
+            android:textStyle="bold"
+            android:background="@color/yellow"
+            android:layout_row="2"
+            android:layout_column="3"
+            android:text="@string/null_value"
+            android:autoSizeTextType="uniform"
+            android:textAlignment="center"/>
+
+        <TextView
+            android:id="@+id/view30"
+            android:layout_width="@dimen/box_size"
+            android:layout_height="@dimen/box_size"
+            android:padding="@dimen/block_padding"
+            android:layout_margin="@dimen/block_margin"
+            android:textSize="@dimen/block_text_size"
+            android:textStyle="bold"
+            android:background="@color/yellow"
+            android:layout_row="3"
+            android:layout_column="0"
+            android:text="@string/null_value"
+            android:autoSizeTextType="uniform"
+            android:textAlignment="center"/>
+
+        <TextView
+            android:id="@+id/view31"
+            android:layout_width="@dimen/box_size"
+            android:layout_height="@dimen/box_size"
+            android:layout_row="3"
+            android:layout_column="1"
+            android:layout_margin="@dimen/block_margin"
+            android:autoSizeTextType="uniform"
+            android:background="@color/yellow"
+            android:padding="@dimen/block_padding"
+            android:text="@string/null_value"
+            android:textAlignment="center"
+            android:textSize="@dimen/block_text_size"
+            android:textStyle="bold" />
+
+        <TextView
+            android:id="@+id/view32"
+            android:layout_width="@dimen/box_size"
+            android:layout_height="@dimen/box_size"
+            android:padding="@dimen/block_padding"
+            android:layout_margin="@dimen/block_margin"
+            android:textSize="@dimen/block_text_size"
+            android:textStyle="bold"
+            android:background="@color/yellow"
+            android:layout_row="3"
+            android:layout_column="2"
+            android:text="@string/null_value"
+            android:autoSizeTextType="uniform"
+            android:textAlignment="center"/>
+
+        <TextView
+            android:id="@+id/view33"
+            android:layout_width="@dimen/box_size"
+            android:layout_height="@dimen/box_size"
+            android:padding="@dimen/block_padding"
+            android:layout_margin="@dimen/block_margin"
+            android:textSize="@dimen/block_text_size"
+            android:textStyle="bold"
+            android:background="@color/yellow"
+            android:layout_row="3"
+            android:layout_column="3"
+            android:text="@string/null_value"
+            android:autoSizeTextType="uniform"
+            android:textAlignment="center"/>
+
+    </GridLayout>
+
+    <Button
+        android:id="@+id/button"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/start"
+        app:layout_constraintBottom_toTopOf="@+id/grid"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.16"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.717"/>
+
+</androidx.constraintlayout.widget.ConstraintLayout>

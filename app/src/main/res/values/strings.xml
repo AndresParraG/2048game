@@ -1,0 +1,5 @@
+<resources>
+    <string name="app_name">game</string>
+    <string name="null_value"> </string>
+    <string name="start">Start</string>
+</resources>
